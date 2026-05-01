@@ -2,15 +2,15 @@
 
 
 # HPC RDMA Home Lab – Proxmox 3-Node Cluster
-**Building production-grade high-performance networking skills for xAI Supercomputing roles**
+**Building production-grade high-performance networking skills for Supercomputing roles**
+
+## Hardware Used (from my existing lab)
+- Dell PowerEdge R720 (existing Proxmox host with live workloads – untouched)
+- 2x Cisco UCS C22 M3 servers (fresh Proxmox installs)
+- Onboard 1/10GbE NICs for initial cluster fabric
 
 **Status**: In Progress (Step 1 Completion)  
 **Goal**: Demonstrate hands-on RDMA/RoCE, GPUDirect, Kubernetes + NCCL/MPI experience using existing hardware (Dell PowerEdge R720 + 2x Cisco UCS C22 M3).
-
-## Hardware Used (from my existing lab)
-- Dell PowerEdge R720 (existing Proxmox host with live EVE-NG workloads – untouched)
-- 2x Cisco UCS C22 M3 servers (fresh Proxmox installs)
-- Onboard 1/10GbE NICs for initial cluster fabric
 
 ## Project Objectives
 - Deploy 3-node Proxmox VE 9.x cluster without disrupting existing workloads
