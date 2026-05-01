@@ -20,3 +20,4 @@
 
 ## Step 1 – 3-Node Proxmox Cluster (Completed Pending)
 
+**Star this repo if you're building a similar HPC lab!**
