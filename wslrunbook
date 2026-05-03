@@ -1,0 +1,19 @@
+-Install Git-
+sudo apt update && sudo apt install git -y
+
+
+-Configure your Git identity-
+git config --global user.name "Your Full Name"
+git config --global user.email "your-github-email@example.com"
+
+-Generate SSH key for GitHub-
+ssh-keygen -t ed25519 -C "your-github-email@example.com"
+# Press Enter for default location (/home/<user>/.ssh/id_ed25519)
+# Press Enter again for empty passphrase (lab use only)
+
+-SSH key to ssh-agent-
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+-Print public key-
+cat ~/.ssh/id_ed25519.pub
