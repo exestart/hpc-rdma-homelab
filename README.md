@@ -1,7 +1,7 @@
 # hpc-rdma-homelab
 
 
-# HPC RDMA Home Lab – Proxmox 3-Node Cluster
+# HPC RDMA Home Lab – Proxmox 2-Node Cluster
 **Building production-grade high-performance networking skills for Supercomputing roles**
 
 ## Hardware Used (from my existing lab)
